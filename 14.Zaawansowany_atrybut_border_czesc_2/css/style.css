@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+div.container {
+	position: relative;
+	border: 1px double black;
+	padding: 0px 15px;
+	width: 60%;
+	min-height: 100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	
+	
+}
+div.avatar {
+	display: inline-block;
+	width: 18%;
+}
+div.content {
+	display: inline-block;
+	width: 80%;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px  gray;
+	background-color: aliceblue;
+	
+}
+
+.content{
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 5px;
+}
+.content p {
+	margin: 0;
+}

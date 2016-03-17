@@ -1,0 +1,17 @@
+ul.first {
+	list-style-type: square;
+}
+ul.second {
+	list-style-type: none;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+}
+ul.second li {
+	float: left; /* do 11.5 */
+	display: inline-block;
+	margin: 0px;
+	text-transform: uppercase;
+	padding: 0px 3%;
+	color: #2e5b78;
+}

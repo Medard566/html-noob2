@@ -1,0 +1,140 @@
+.clearfix {
+	clear: both;
+}
+.next-task {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 10px;
+}
+div.text-and-image {
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}
+
+
+div.first {
+	width: 100px;
+	height: 100px;
+	background-color: chartreuse;
+	float: left;
+}
+div.second {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	float: right;
+	clear: right;
+}
+div.third {
+	clear: both;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+div.three {
+	width: 800px;
+	background-color: black;
+	height: auto;
+}
+
+img {
+	float: left;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+}
+img.bottom-right-corner {
+	float: right;
+	position: relative;
+	top: -50px;
+	right: -50px;
+}
+div.two-hedgehogs {
+	
+	padding: 30px;
+	border: 1px solid black;
+	height: 200px;
+}
+img.first-image {
+	padding: 0px;
+	margin: -4px;
+	display: block;
+}
+img.second-image {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	position: relative;
+	top: 50px;
+	right: 50px;
+	z-index: -1;
+}
+
+div.container {
+	padding: 30px;
+	display: inline-block;
+}
+div.frame {
+	position: relative;
+	left: 0;
+	right: 0;
+	border: 3px solid black;
+	height: 260px; 
+	width: 230px;
+	font-size: 16px;
+}
+div.circle {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -30px;
+}
+div.outer {
+	border-radius: 50%;
+	border: 3px solid black;
+	background-color: white;
+	height: 60px;
+	width: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+div.inner {
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	border-radius: 50%;
+}
+
+div.content {
+	text-align: center;
+}
+div.frame h1 {
+	position: relative;
+	top: -10px;
+	font-size: 1.25em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+div.frame a {
+	display: inline-block;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.last-task {
+	-webkit-display: flex;
+	display: flex;
+	justify-content: center;
+}
+.last-task > div.frame {
+	margin-right: 10px;
+}

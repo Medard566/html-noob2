@@ -1,0 +1,12 @@
+[type*="submit"] {
+	background-color: blue;
+}
+[type~="email"] {
+	background-color: green;
+}
+[class*="important"] {
+	background-color: red;
+}
+[class^="important"] {
+	background-color: pink;
+}

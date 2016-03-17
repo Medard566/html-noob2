@@ -1,0 +1,80 @@
+.clearfix {
+	clear: both;
+}
+.next-task {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 10px;
+}
+
+div.first {
+	width: 400px;
+	height: 300px;
+	border: 1px solid blue;
+}
+div.first:hover {
+	background-color: blue;
+	border-radius: 50%;
+	overflow: hidden;
+}
+div.first:active {
+	background-color: white;
+	box-shadow: 5px 5px 5px blue;
+}
+
+div.whitespace-fix {
+	font-size: 0;
+}
+a:link {
+	display: inline-block;
+	padding: 10px;
+	background-color: yellow;
+	border-radius: 4px;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	background-color: gray;
+}
+a:hover {
+	background-color: green;
+}
+
+ul#navigation {
+	list-style-type: none;
+	font-size: 0;
+}
+ul#navigation li {
+	width: 75px;
+	display: inline-block;
+	background-color: crimson;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+ul#navigation :first-child {
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+ul#navigation :last-child {
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+div#zebra :nth-child(odd) {
+	background-color: gray;
+}
+
+div#other :first-child {
+	background-color: green;
+	
+}
+
+div#other :last-child {
+	background-color: blue;
+}
+
+div#from_end div:nth-last-child(2n+1) {
+	background-color: orange;
+}

@@ -1,0 +1,44 @@
+div { 
+	margin: 30px;
+	background-color: green;
+}
+.elipse {
+	width: 200px;
+	height: 100px;
+	border: 2px dashed green;
+	border-radius: 100px / 50px;
+}
+.circle {
+	width: 200px;
+	height: 200px;
+	border: 2px dashed green;
+	border-radius: 50%;
+}
+.lime {
+	width: 200px;
+	height: 200px;
+	border: 2px dashed green;
+	border-radius: 10px 50%;
+}
+
+.shadows1 {
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 0px 1px 5px red;
+}
+.shadow2 {
+	width: 200px;
+	height: 200px;
+	box-shadow: 
+    0px 10px 0px 0px rgba(255, 0, 0, 0.15),
+		0px -10px 5px 0px blue; /* przy większym blur rozchodzi się również na boki */
+	
+}
+
+.shadows3 {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	box-shadow: 20px 20px 0px 0px;
+	
+}
