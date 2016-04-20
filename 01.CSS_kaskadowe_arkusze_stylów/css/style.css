@@ -1,7 +1,27 @@
 p {
-  font-size: 30px;
+  font-size: 12px;
 }
 
 p {
   font-size: 40px;
+}
+
+span {
+  background-color: yellow;
+}
+
+span p {
+  background-color: yellow;
+}
+
+#ajdi {
+  background-color: red;
+}
+
+div {
+  background-color: blue;
+}
+
+.klasa {
+  background-color: green;
 }
