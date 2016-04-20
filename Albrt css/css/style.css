@@ -6,11 +6,8 @@ p {
   font-size: 40px;
 }
 
-span {
-  background-color: yellow;
-}
 
-span p {
+p span  {
   background-color: yellow;
 }
 
